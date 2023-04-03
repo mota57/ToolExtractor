@@ -1,5 +1,6 @@
 BEFORE USING THE SOFTWARE, you need to install on chrome the following extension:
 https://chrome.google.com/webstore/detail/cookie-tab-viewer/fdlghnedhhdgjjfgdpgpaaiddipafhgk?hl=en
+
 •	Go to view public documents.
 •	Select Company CIN/FCRN
 •	Enter L17110MH1973PLC019786
