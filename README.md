@@ -1,6 +1,13 @@
-Requirements: 
+### Description
+
+A tool to pull pdf data from MCA.GOV
+
+### Requirements
+
 * [chrome extenxion for copy cookies](https://chrome.google.com/webstore/detail/cookie-tab-viewer/fdlghnedhhdgjjfgdpgpaaiddipafhgk?hl=en)
 * [.NET 7 for your favorite OS](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+
+### Instructions
 
 *	[Go to view public documents](https://www.mca.gov.in/mcafoportal/viewPublicDocumentsFilter.do).
 *	Select Company CIN/FCRN.
