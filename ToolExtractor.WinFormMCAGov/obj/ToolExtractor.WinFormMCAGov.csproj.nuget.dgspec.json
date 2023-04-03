@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.WinFormMCAGov\\ToolExtractor.WinFormMCAGov.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.Lib\\ToolExtractor.Lib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.Lib\\ToolExtractor.Lib.csproj",
+        "projectName": "ToolExtractor.Lib",
+        "projectPath": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.Lib\\ToolExtractor.Lib.csproj",
+        "packagesPath": "C:\\Users\\pc001\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pc001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.100.3, )"
+            },
+            "Fizzler.Systems.HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.WinFormMCAGov\\ToolExtractor.WinFormMCAGov.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.WinFormMCAGov\\ToolExtractor.WinFormMCAGov.csproj",
+        "projectName": "ToolExtractor.WinFormMCAGov",
+        "projectPath": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.WinFormMCAGov\\ToolExtractor.WinFormMCAGov.csproj",
+        "packagesPath": "C:\\Users\\pc001\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.WinFormMCAGov\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pc001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.Lib\\ToolExtractor.Lib.csproj": {
+                "projectPath": "C:\\Users\\pc001\\source\\repos\\ToolExtractor\\ToolExtractor.Lib\\ToolExtractor.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
